@@ -1,5 +1,4 @@
 # jetson-tools
-# Jetson Tools
 
 A collection of command-line tools and supporting documentation for working with NVIDIA Jetson systems.
 
