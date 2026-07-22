@@ -9,6 +9,7 @@ The repository contains practical utilities developed for Jetson setup, installa
 | Tool                                                                 | Description                                                                                                                                                   |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`write-verify-usb-image.sh`](docs/write-verify-usb-image/README.md) | Writes a raw disk image to a USB drive and verifies the result byte-for-byte. Intended for creating JetPack installation media directly from a Jetson system. |
+| [`install-ollama-jetson.sh`](docs/install-ollama-jetson/README.md) | Installs Ollama on an ARM64 Jetson system and configures it to use the integrated GPU when the CUDA backend is available. |
 
 ## Repository Layout
 
@@ -16,11 +17,14 @@ The repository contains practical utilities developed for Jetson setup, installa
 .
 ├── README.md
 ├── tools/
-│   └── write-verify-usb-image.sh
+│   ├── write-verify-usb-image.sh
+│   └── install-ollama-jetson.sh
 └── docs/
-    └── write-verify-usb-image/
-        ├── README.md
-        └── DESIGN.md
+    ├── write-verify-usb-image/
+    │   ├── README.md
+    │   └── DESIGN.md
+    └── install-ollama-jetson/
+        └── README.md
 ```
 
 * `tools/` contains executable scripts and utilities.
